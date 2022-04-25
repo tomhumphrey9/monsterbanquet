@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lacquer&family=Patrick+Hand&display=swap');
 @import url("bootstrap.css");
+
 /*header colours*/
 h1,
 h2,
@@ -7,226 +8,225 @@ h3,
 h4,
 h5,
 h6 {
-font-family: 'Bangers', sans-serif;
-color: #A695F2;
+	font-family: 'Bangers', sans-serif;
+	color: #A695F2;
 }
 
 h2 {
-color: white;
+	color: white;
 }
 
 .headline {
-color: #A695F2;
+	color: #A695F2;
 }
 
 
 
 p {
-font-family: 'Patrick Hand', sans-serif;
+	font-family: 'Patrick Hand', sans-serif;
 }
 
 .buttonFont {
-font-family: 'Lacquer', sans-serif;
-font-weight: bold;
+	font-family: 'Lacquer', sans-serif;
+	font-weight: bold;
 }
 
 .menuFont {
-font-family: 'Patrick Hand', sans-serif;
+	font-family: 'Patrick Hand', sans-serif;
 }
 
 .h5 {
-color: White;
+	color: White;
 }
 
 .h4 {
-color: White;
+	color: White;
 }
 
 a:link,
 a:visited,
 a:hover,
 a:active {
-text-decoration: none;
+	text-decoration: none;
 }
 
 .buttonBG {
-background-color: #F9D654;
-color: black;
-border: 4px solid #000;
-border-radius: 15px;
+	background-color: #F9D654;
+	color: black;
+	border: 4px solid #000;
+	border-radius: 15px;
 }
 
 .buttonBG:hover {
-color: black;
+	color: black;
 }
 
 .mintBTN:hover {
-background-color: #EB4C54;
+	background-color: #EB4C54;
 }
 
 
 .navbar {
-min-height: 120px;
-overflow: hidden;
+	min-height: 120px;
+	overflow: hidden;
 }
 
 .navbar-bg {
-position: absolute;
-height: 100%;
-z-index: 0;
-background-image: url('https://media.discordapp.net/attachments/940167844912570408/948776153152360488/endless_banner.png');
-background-size: auto 120px;
-width: 10416px;
-background-repeat: repeat-x;
--webkit-animation: slide 240s linear infinite;
-animation: slide 240s linear infinite;
+	position: absolute;
+	height: 100%;
+	z-index: 0;
+	background-image: url('../img/header/endlessbanner.png');
+	background-size: auto 120px;
+	width: 10416px;
+	background-repeat: repeat-x;
+	-webkit-animation: slide 240s linear infinite;
+	animation: slide 240s linear infinite;
 }
 
 .navbar-elements {
-position: relative;
-z-index: 1;
-width: 100%;
+	position: relative;
+	z-index: 1;
+	width: 100%;
 }
 
 .navbar-toggler {
-position: absolute;
-height: 100px;
-right: 10px;
+	position: absolute;
+	height: 100px;
+	right: 10px;
 }
-
 
 @-webkit-keyframes slide {
-0% {
--webkit-transform: translate3d(0, 0, 0);
-transform: translate3d(0, 0, 0);
-}
+	0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
 
-100% {
--webkit-transform: translate3d(-3472px, 0, 0);
-transform: translate3d(-3472px, 0, 0);
-}
+	100% {
+		-webkit-transform: translate3d(-3472px, 0, 0);
+		transform: translate3d(-3472px, 0, 0);
+	}
 }
 
 @keyframes slide {
-0% {
--webkit-transform: translate3d(0, 0, 0);
-transform: translate3d(0, 0, 0);
-}
+	0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
 
-100% {
--webkit-transform: translate3d(-3472px, 0, 0);
-transform: translate3d(-3472px, 0, 0);
-}
+	100% {
+		-webkit-transform: translate3d(-3472px, 0, 0);
+		transform: translate3d(-3472px, 0, 0);
+	}
 }
 
 .navbar-buttons {
-border: 4px solid #000;
-border-radius: 15px;
+	border: 4px solid #000;
+	border-radius: 15px;
 }
 
 .navbar-buttons:hover {
-border: 4px solid #000;
-border-radius: 15px;
+	border: 4px solid #000;
+	border-radius: 15px;
 }
 
 .navbar-links {
-border: 0px solid #fff;
-border-radius: 15px;
+	border: 0px solid #fff;
+	border-radius: 15px;
 }
 
 .nav-item:hover .navUnderline {
-border-bottom: 2px solid #fff;
+	border-bottom: 2px solid #fff;
 }
 
 @media (max-width: 1200px) {
-.onCollapse {
-background: none;
-}
+	.onCollapse {
+		background: none;
+	}
 }
 
 
 .insta:hover {
-border-bottom: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
 }
 
 #discordButton {
-width: 250px;
+	width: 250px;
 }
 
 #discordButton:hover span {
-display: none
+	display: none
 }
 
 #discordButton:hover:before {
-content: "Coming Soon!";
+	content: "Coming Soon!";
 }
 
 #osButton {
-width: 190px;
+	width: 190px;
 }
 
 #osButton:hover span {
-display: none
+	display: none
 }
 
 #osButton:hover:before {
-content: "Coming Soon!";
+	content: "Coming Soon!";
 }
 
 #osButtonSM {
-width: 150px;
+	width: 150px;
 }
 
 #osButtonSM:hover span {
-display: none
+	display: none
 }
 
 #osButtonSM:hover:before {
-content: "Coming Soon!";
+	content: "Coming Soon!";
 }
 
 /* Avatars front image */
 .aidanIMG {
-background-image: url('https://media.discordapp.net/attachments/940184611982561280/959037258743300176/276949101_518452749872746_7576681831327860380_n.webp');
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url('../img/meatTeam/front/aidan.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .angvsIMG {
-background-image: url('https://media.discordapp.net/attachments/940184611982561280/959037258500026458/274645790_1167987590410295_9194267824548361475_n.webp');
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url('../img/meatTeam/front/angvs.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .tomIMG {
-background-image: url('https://media.discordapp.net/attachments/940184611982561280/959037258302881822/274208056_531226095028850_8704280226246719955_n.webp');
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url('../img/meatTeam/front/tom.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* Types of monster front image */
 #peonIMG {
-background-image: url('https://media.discordapp.net/attachments/940167844912570408/951383069342957598/Peon_Base.png');
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url('../img/meetMonsters/front/peon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .stoneskinIMG {
-background-image: url('https://media.discordapp.net/attachments/940167844912570408/948892187427475506/ss.png');
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url('../img/meetMonsters/front/stoneskin.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .undeadIMG {
-background-image: url('https://media.discordapp.net/attachments/940167844912570408/948892187867889684/undead.png');
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url('../img/meetMonsters/front/undead.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .synthIMG {
-background-image: url('https://media.discordapp.net/attachments/940167844912570408/948892187670753330/synth.png');
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url('../img/meetMonsters/front/synth.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*
@@ -242,87 +242,87 @@ opacity: 1;
 }*/
 
 #hoverPEON {
-opacity: 0;
--webkit-transition-duration: 1s;
--o-transition-duration: 1s;
-transition-duration: 1s;
+	opacity: 0;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
 }
 
 #hoverSS {
-opacity: 0;
--webkit-transition-duration: 1s;
--o-transition-duration: 1s;
-transition-duration: 1s;
+	opacity: 0;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
 }
 
 #hoverUD {
-opacity: 0;
--webkit-transition-duration: 1s;
--o-transition-duration: 1s;
-transition-duration: 1s;
+	opacity: 0;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
 }
 
 #hoverSYNTH {
-opacity: 0;
--webkit-transition-duration: 1s;
--o-transition-duration: 1s;
-transition-duration: 1s;
+	opacity: 0;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
 }
 
 #hoverAIDAN {
-opacity: 0;
--webkit-transition-duration: 1s;
--o-transition-duration: 1s;
-transition-duration: 1s;
+	opacity: 0;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
 }
 
 #hoverANGVS {
-opacity: 0;
--webkit-transition-duration: 1s;
--o-transition-duration: 1s;
-transition-duration: 1s;
+	opacity: 0;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
 }
 
 #hoverTOM {
-opacity: 0;
--webkit-transition-duration: 1s;
--o-transition-duration: 1s;
-transition-duration: 1s;
+	opacity: 0;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
 }
 
 /* show more show less */
 .read-more-state {
-display: none;
+	display: none;
 }
 
 .read-more-target {
-opacity: 0;
-max-height: 0;
-font-size: 0;
--webkit-transition: .25s ease;
--o-transition: .25s ease;
-transition: .25s ease;
+	opacity: 0;
+	max-height: 0;
+	font-size: 0;
+	-webkit-transition: .25s ease;
+	-o-transition: .25s ease;
+	transition: .25s ease;
 }
 
 .read-more-state:checked~.read-more-wrap .read-more-target {
-opacity: 1;
-font-size: inherit;
-max-height: 999em;
+	opacity: 1;
+	font-size: inherit;
+	max-height: 999em;
 }
 
 .read-more-state~.read-more-trigger:before {
-content: 'Read more';
+	content: 'Read more';
 }
 
 .read-more-state:checked~.read-more-trigger:before {
-content: 'Show less';
+	content: 'Show less';
 }
 
 .read-more-trigger {
-cursor: pointer;
-padding: 0 .5em;
-font-size: 1.3em;
-line-height: 2;
+	cursor: pointer;
+	padding: 0 .5em;
+	font-size: 1.3em;
+	line-height: 2;
 
-border-radius: .25em;
+	border-radius: .25em;
 }
