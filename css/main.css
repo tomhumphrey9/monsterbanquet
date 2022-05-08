@@ -119,6 +119,30 @@ a:active {
 	}
 }
 
+@-webkit-keyframes down {
+	0% {
+		-webkit-transform: translate3d(-5px, 0, 0);
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	100% {
+		-webkit-transform: translate3d(-5px, -3472px, 0);
+		transform: translate3d(-5px, -3472px, 0);
+	}
+}
+
+@keyframes down {
+	0% {
+		-webkit-transform: translate3d(-5px, 0, 0);
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	100% {
+		-webkit-transform: translate3d(-5px, -3472px, 0);
+		transform: translate3d(-5px, -3472px, 0);
+	}
+}
+
 .navbar-buttons {
 	border: 4px solid #000;
 	border-radius: 15px;
